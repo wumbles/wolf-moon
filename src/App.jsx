@@ -47,6 +47,8 @@ function App() {
   return (
     <>
       <div>
+        <h4>{quote}</h4>
+
         <button
           onClick={() => {
             showMoon();
@@ -57,7 +59,6 @@ function App() {
         </button>
       </div>
       {moonVisible && getMoonPhase()}
-      <h4>{quote}</h4>
     </>
   );
 }

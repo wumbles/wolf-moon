@@ -34,7 +34,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   animation: fadeIn 1s ease-in both;
   margin: 15px;
 }
@@ -70,6 +71,15 @@ h3 {
   justify-content: center;
 
   animation-delay: 1.5s;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+
+  font-style: italic;
+
+  font-size: 1em;
 }
 
 button {
