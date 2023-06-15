@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1.1;
 
   display: flex;
@@ -127,3 +127,17 @@ button:focus-visible {
   background-color: black;
   animation: fadeIn 5s;
 } */
+
+.result-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

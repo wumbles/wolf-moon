@@ -12,8 +12,10 @@ function App() {
 
     return (
       <>
-        <h2>The 🐺 says today is:</h2>
-        <h3>{currentPhase}</h3>
+        <div className="result-text">
+          <h2>The 🐺 says today is:</h2>
+          <h3>{currentPhase}</h3>
+        </div>
       </>
     );
   };
@@ -46,7 +48,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="button-text">
         <h4>{quote}</h4>
 
         <button
