@@ -13,7 +13,7 @@ function App() {
     return (
       <>
         <div className="result-text">
-          <h2>The 🐺 says today is:</h2>
+          <h2>The 🐺 says today is...</h2>
           <h3>{currentPhase}</h3>
         </div>
       </>
