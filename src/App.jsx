@@ -1,6 +1,7 @@
 import "./App.css";
 import { Moon } from "lunarphase-js";
 import { useState, useEffect } from "react";
+import LoadingWipe from "./LoadingWipe";
 
 function App() {
   const [moonVisible, setMoonVisible] = useState(false);
@@ -48,6 +49,7 @@ function App() {
 
   return (
     <>
+      <LoadingWipe />
       <div className="button-text">
         <h4>{quote}</h4>
 

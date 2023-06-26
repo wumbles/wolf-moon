@@ -23,6 +23,12 @@ a:hover {
   color: #535bf2;
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -61,6 +67,7 @@ h2 {
 
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 h3 {
@@ -78,8 +85,8 @@ h4 {
   justify-content: center;
 
   font-style: italic;
-
   font-size: 1em;
+  text-align: center;
 }
 
 button {
@@ -120,13 +127,6 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-/* .screen-wipe {
-  height: 100vh;
-  width: 100vw;
-  background-color: black;
-  animation: fadeIn 5s;
-} */
 
 .result-text {
   display: flex;
