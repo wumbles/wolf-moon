@@ -20,7 +20,7 @@ function LoadingWipe() {
         placeItems: "center",
         width: "100vw",
         height: "100vh",
-        backgroundColor: "black",
+        backgroundColor: "#1a1a1a",
         transform: "translateX(0%)",
         transition: "transform ease .3s",
         ...(hidden ? { transform: "translateX(100%)" } : {}),
