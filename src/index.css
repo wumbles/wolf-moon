@@ -149,6 +149,17 @@ button:hover {
   -moz-transform: scale(1.1);
   transition: ease-in-out 0.5s;
 }
+
+@media only screen and (max-width: 600px) {
+  button:hover {
+    border-color: #cca40e;
+    transform: scale(1.115);
+    -webkit-transform: scale(1.055);
+    -moz-transform: scale(1);
+    transition: ease-in-out 0.5s;
+  }
+}
+
 button:focus {
 }
 
