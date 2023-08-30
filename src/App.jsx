@@ -59,7 +59,7 @@ function App() {
             // showQuote;
           }}
         >
-          <h1>Click for Moon Phase:</h1>
+          <h1>Ask for Moon Phase:</h1>
         </button>
       </div>
       {moonVisible && getMoonPhase()}
