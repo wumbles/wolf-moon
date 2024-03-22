@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function LoadingWipe() {
   const [hidden, setHidden] = useState(false);
@@ -24,7 +24,6 @@ function LoadingWipe() {
         transform: "translateX(0%)",
         transition: "transform ease .3s",
         ...(hidden ? { transform: "translateX(100%)" } : {}),
-        overflow: hidden,
       }}
     >
       <h1>🐺</h1>

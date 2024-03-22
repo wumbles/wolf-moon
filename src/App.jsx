@@ -48,7 +48,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="big-container">
       <LoadingWipe />
       <div className="button-text">
         <h4>{quote}</h4>
@@ -63,7 +63,7 @@ function App() {
         </button>
       </div>
       {moonVisible && getMoonPhase()}
-    </>
+    </div>
   );
 }
 
